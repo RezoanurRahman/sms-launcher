@@ -1,10 +1,18 @@
 {
   "_instructions": "Players see this file in the launcher. Add each player-visible change here in the same commit: launcher changes to beta.launcher, game changes Beta now builds to beta.game. Releases move beta into a new entry (npm run update:game does it). One plain sentence for players per line, no commit hashes or PR numbers. See AGENTS.md.",
   "beta": {
-    "launcher": ["Added a landscape Android launcher for modern 64-bit handhelds, with disc import, game settings, and save backup import and export."],
-    "game": ["Added native 64-bit Android support with controller input, audio, saves, and an OpenGL ES renderer.",
+    "launcher": [
+      "Fixed the game failing to build on some Windows PCs with \"The C compiler is not able to compile a simple test program\", caused by the build losing the Windows system folders from its search path.",
+      "Added a landscape Android launcher for modern 64-bit handhelds, with disc import, game settings, and save backup import and export."
+    ],
+    "game": [
+      "Fixed the water in Bowser's hot tub being invisible in the final fight. Bowser now sits in it, and the duck and Bowser Jr.'s boat float on it.",
+      "Fixed Super Mario Eclipse crashing on Mac when you leave a stage, and Eclipse's Yoshi colours now show on Mac too.",
+      "Fixed the picture breaking up into coloured blocks from the save select onward on some older Intel graphics at Original (1×) picture sharpness.",
+      "Added native 64-bit Android support with controller input, audio, saves, and an OpenGL ES renderer.",
       "Reduced Android rendering overhead in areas with pollution.",
-      "Fixed an Android loading hang after the opening movies."]
+      "Fixed an Android loading hang after the opening movies."
+    ]
   },
   "releases": [
     {
