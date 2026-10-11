@@ -14,6 +14,7 @@
     "start": "node scripts/start.js",
     "test": "node --test",
     "dist": "electron-builder",
+    "android:build": "bash android/build.sh",
     "release": "node scripts/release.js",
     "update:game": "node scripts/update-game.js"
   },

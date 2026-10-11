@@ -12,6 +12,9 @@ Set up and play Super Mario Sunshine on **Windows, macOS, and Linux**. SMS Launc
 
 **Bring your own ROM is required.** You need a disc image made from your own supported Super Mario Sunshine disc. The launcher does not include a game or disc image.
 
+Modern ARM64 Android handhelds have a native launcher and game build in
+[`android/`](android/README.md), including disc import and save backup transfer.
+
 ## Download
 
 **[Download SMS Launcher from the latest release](https://github.com/chasem-dev/sms-launcher/releases/latest)**
