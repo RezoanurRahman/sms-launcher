@@ -3,7 +3,8 @@
   "beta": {
     "launcher": ["Added a landscape Android launcher for modern 64-bit handhelds, with disc import, game settings, and save backup import and export."],
     "game": ["Added native 64-bit Android support with controller input, audio, saves, and an OpenGL ES renderer.",
-      "Reduced Android rendering overhead in areas with pollution."]
+      "Reduced Android rendering overhead in areas with pollution.",
+      "Fixed an Android loading hang after the opening movies."]
   },
   "releases": [
     {
