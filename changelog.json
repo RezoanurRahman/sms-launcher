@@ -3,7 +3,8 @@
   "beta": {
     "launcher": [
       "Fixed the game failing to build on some Windows PCs with \"The C compiler is not able to compile a simple test program\", caused by the build losing the Windows system folders from its search path.",
-      "Added a landscape Android launcher for modern 64-bit handhelds, with disc import, game settings, and save backup import and export."
+      "Added a landscape Android launcher for modern 64-bit handhelds, with disc import, game settings, and save backup import and export.",
+      "Added Android performance hints and a performance overlay switch in Game settings."
     ],
     "game": [
       "Fixed the water in Bowser's hot tub being invisible in the final fight. Bowser now sits in it, and the duck and Bowser Jr.'s boat float on it.",
@@ -12,7 +13,8 @@
       "Added native 64-bit Android support with controller input, audio, saves, and an OpenGL ES renderer.",
       "Reduced Android rendering overhead in areas with pollution.",
       "Fixed an Android loading hang after the opening movies.",
-      "Fixed Android showing a black screen with audio on some Adreno graphics drivers."
+      "Fixed Android showing a black screen with audio on some Adreno graphics drivers.",
+      "Android now reports frame workloads to help the device schedule the game and renderer."
     ]
   },
   "releases": [
